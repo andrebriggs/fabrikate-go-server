@@ -1,0 +1,9 @@
+name: sample-app
+# generator: static
+# path: "./manifests"
+subcomponents:
+- name: services
+  source: "./services"
+- name: "cloud-native"
+  source: "https://github.com/timfpark/fabrikate-cloud-native"
+  method: "git"
