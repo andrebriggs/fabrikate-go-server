@@ -1,4 +1,4 @@
-name: sample-app
+name: go-server-app
 # TODO: Added namespace
 # generator: static
 # path: "./manifests"
