@@ -1,9 +1,10 @@
 name: sample-app
+# TODO: Added namespace
 # generator: static
 # path: "./manifests"
 subcomponents:
-- name: services
-  source: "./services"
-- name: "cloud-native"
-  source: "https://github.com/timfpark/fabrikate-cloud-native"
-  method: "git"
+- name: go-server
+  generator: helm
+  source: https://github.com/andrebriggs/go-docker-k8s-demo
+  method: git
+  path: "mywebapp"
