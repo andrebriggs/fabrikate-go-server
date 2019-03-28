@@ -1,5 +1,5 @@
 name: go-server-app
-# TODO: Added namespace
+# TODO: uncomment to add namespace
 # generator: static
 # path: "./manifests"
 subcomponents:
