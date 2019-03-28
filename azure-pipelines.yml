@@ -33,8 +33,4 @@ steps:
     ACCESS_TOKEN_SECRET: $(ACCESS_TOKEN)
     COMMIT_MESSAGE: $(Build.SourceVersionMessage)
     MANIFEST_REPO: $(MANIFEST_REPO)
-    FAB_ENVS:
-    - "DEV"
-    - "QA"
-    - "STAGING"
-    - "PROD"
+    FAB_ENVS: ("DEV" "QA")
