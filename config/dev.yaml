@@ -3,3 +3,5 @@ subcomponents:
     config:
       image:
         tag: "20190328.1"
+      replicaCount: 1
+      minReadySeconds: 2
