@@ -8,3 +8,7 @@ subcomponents:
   source: https://github.com/andrebriggs/go-docker-k8s-demo
   method: git
   path: "mywebapp"
+- name: "cloud-native"
+  source: "https://github.com/timfpark/fabrikate-cloud-native"
+  branch: "master"
+  method: "git"
