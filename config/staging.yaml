@@ -1,0 +1,4 @@
+subcomponents:
+  go-server:
+    config:
+      replicaCount: "3"
