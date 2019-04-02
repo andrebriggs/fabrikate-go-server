@@ -29,4 +29,4 @@ steps:
       ACCESS_TOKEN_SECRET: $(ACCESS_TOKEN)
       COMMIT_MESSAGE: $(Build.SourceVersionMessage)
       REPO: $(MANIFEST_REPO)
-      #FAB_ENVS: 'dev west,qa west,staging west,prod'
+      FAB_ENVS: 'DEV,QA,STAGING WEST,STAGING EAST,STAGING CENTRAL,PROD WEST,PROD EAST,PROD CENTRAL'

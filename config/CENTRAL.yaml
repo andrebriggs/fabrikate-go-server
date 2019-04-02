@@ -1,0 +1,5 @@
+subcomponents:
+  go-server:
+    config:
+      Release:
+        Name: CENTRAL

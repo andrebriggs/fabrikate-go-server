@@ -3,3 +3,5 @@ subcomponents:
     config:
       image:
         pullPolicy: Always
+      Release:
+        Name: WEST
