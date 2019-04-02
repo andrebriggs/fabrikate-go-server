@@ -4,4 +4,4 @@ subcomponents:
       image:
         pullPolicy: Always
       Release:
-        Name: EAST
+        Name: WEST
