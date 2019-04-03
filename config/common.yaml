@@ -6,5 +6,6 @@ subcomponents:
         tag: "20190330.1"
   cloud-native:        
     prometheus-grafana:
-      config:
-        adminPassword: "CHANGEME"
+      grafana:
+        config:
+          adminPassword: "CHANGEME"
