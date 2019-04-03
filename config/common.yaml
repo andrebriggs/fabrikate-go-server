@@ -4,7 +4,7 @@ subcomponents:
       image:
         repository: andrebriggs.azurecr.io/go-docker-k8s-demo
         tag: "20190330.1"
-cloud-native:        
-  prometheus-grafana:
-    config:
-      adminPassword: "CHANGEME"
+  cloud-native:        
+    prometheus-grafana:
+      config:
+        adminPassword: "CHANGEME"
