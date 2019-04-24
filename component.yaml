@@ -8,13 +8,9 @@ subcomponents:
   source: https://github.com/andrebriggs/go-docker-k8s-demo
   method: git
   path: "mywebapp"
-# - name: "cloud-native"
-#   source: "https://github.com/timfpark/fabrikate-cloud-native"
-#   branch: "master"
-#   method: "git"
 - name: "prometheus-grafana"
   source: "https://github.com/timfpark/fabrikate-prometheus-grafana"
   method: "git"
 - name: "istio"
   source: "https://github.com/evanlouie/fabrikate-istio"
-  method: "git
+  method: "git"
