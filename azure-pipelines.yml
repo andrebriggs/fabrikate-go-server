@@ -20,7 +20,6 @@ steps:
     condition: 'eq(variables[''Build.Reason''], ''PullRequest'')'
     env:
       VERIFY_ONLY: 1
-      HLD_PATH: git://github.com/andrebriggs/fabrikate-go-server.git
   - task: ShellScript@2
     displayName: Transform fabrikate definitions and publish to YAML manifests to repo
     inputs:
