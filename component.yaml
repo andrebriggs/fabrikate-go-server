@@ -1,7 +1,4 @@
 name: go-server-app
-# TODO: uncomment to add namespace
-# generator: static
-# path: "./manifests"
 subcomponents:
 - name: go-server
   generator: helm
