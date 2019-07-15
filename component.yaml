@@ -5,11 +5,3 @@ subcomponents:
   source: https://github.com/andrebriggs/go-docker-k8s-demo
   method: git
   path: "mywebapp"
-# - name: "prometheus-grafana"
-#   source: "https://github.com/timfpark/fabrikate-prometheus-grafana"
-#   method: "git"
-#   version: "91b03b1d9397dc919797102e06233e89bbb7d18f"
-# - name: "istio"
-#   source: "https://github.com/evanlouie/fabrikate-istio"
-#   method: "git"
-#   version: "85bdfcb86a1053066ab98d84b01cf3564b331e72"
