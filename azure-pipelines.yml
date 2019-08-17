@@ -2,6 +2,8 @@ trigger:
   - master
 pool:
   vmImage: Ubuntu-16.04
+variables:
+- group: container journey
 steps:
   - bash: |
       git clone https://github.com/samiyaakhtar/container-journey.git
