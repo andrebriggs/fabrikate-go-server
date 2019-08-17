@@ -2,6 +2,6 @@ subcomponents:
   go-server:
     config:
       image:
-        tag: "20190815.3"
+        tag: "20190817.2"
       minReadySeconds: 2
       replicaCount: 1
